@@ -80,11 +80,12 @@ hr{
   max-width: 880px;
   margin: 20px auto;
 }
+.slick-dots{
+padding-top: 1000px;
+}
 .slick-dots li button{
 border: 1px solid #777;
 border-radius: 50%;
--webkit-transition: border-color .3s;
--o-transition: border-color .3s;
 transition: border-color .3s;
 }
 .slick-dots li button:before{
