@@ -168,9 +168,8 @@ background: #fff;
   border-radius: 5px;
   background-clip: padding-box;
 }
-.news-link{
-  text-align: right;
-color: #A9A9A9;
+.zag{
+  border-top: 1px solid #c0c0c0;
 
 }
 
@@ -277,15 +276,11 @@ color: #A9A9A9;
   text-transform: uppercase;
 }
 
-
-
-.list th {
-  background: white;
-}
 .list th {
   font-size: 1.2em;
-  text-align: left;
   padding: 10px 0;
+  background: white;
+  text-align: center;
 }
 .list td {
   padding: 5px 20px 5px 0;
