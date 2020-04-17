@@ -170,7 +170,6 @@ background: #fff;
 }
 .zag{
   border-top: 1px solid #c0c0c0;
-
 }
 
 .pagination-wrapper {
@@ -205,6 +204,7 @@ background: #fff;
 }
 .footer{
   background: white;
+
 }
 .page-container {
     max-width: 1330px;
@@ -295,5 +295,5 @@ background: #fff;
 }
 
 #map{
-  height: 300px;
+  height: 400px;
 }
