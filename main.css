@@ -271,4 +271,44 @@ background: #fff;
   color: #535b60;
   font-size: 1.1em;
 }
-
+.zm{
+  color: white;
+}
+.ul {
+  list-style: none;
+  margin: 20px 0 40px; 
+  padding: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-left: 10px solid #989c99;
+}
+.h3 {
+  padding: 5px 0;
+  color: #b8b8b8;
+  transition: 0.5s linear;
+}
+.h3:target {
+  background: #575555;
+  box-shadow: 0 0 4px #9c9c9c;
+}
+p {
+  line-height: 1.3;
+  margin-top: 5px;
+  color: #c6ccc6;
+}
+ .part {
+  text-decoration: none;
+  background: #e3e3e3;
+  color: #afb3af;
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  transition: 0.5s linear;
+}
+.first {
+  border-top: 1px solid #C9D9CF;
+}
+.part:hover {
+  background: #afb3af;
+  color: #000;
+}
