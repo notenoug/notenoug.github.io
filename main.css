@@ -346,3 +346,44 @@ width: 100%;
 text-align: center;
 padding-top: 10px;
 }
+
+
+.box {
+  margin: 50px auto 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.box-inner img {
+  transition: 0.4s;
+  width: 100%;
+}
+.text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin-top: -40px;
+  text-align: center;
+}
+.text h2 {
+  font-family: 'Forum', cursive;
+  color: black;
+  display: inline-block;
+  font-size: 50px;
+  text-transform: uppercase;
+  border-width: 3px 0;
+  border-color: grey;
+  border-style: solid;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.box:hover img {
+  transform: scale(1.1);
+}
+.box:hover .text h2 {
+  opacity: 1;
+}
+
+
