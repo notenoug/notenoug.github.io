@@ -154,7 +154,8 @@ background: #fff;
 }
 .wrapper-row p {
   padding: 10px 0;
-    color: #A9A9A9;
+    color: #fff;
+    font-size: 20px;
 }
 .wrapper-row h2{
   color: #696969;
@@ -162,7 +163,7 @@ background: #fff;
 }
 .wrapper-row h3 {
   padding-top: 15px;
-  color: #FFFFFF;
+  color: #FFF0FF;
 }
 .wrapper-row .image {
   padding-top: 15px;
@@ -220,6 +221,7 @@ background: #fff;
 .footer-text{
   font-weight: bold;
   color: #626978;
+  padding-left: 20px;
 }
 
 
@@ -268,7 +270,7 @@ background: #fff;
   border-bottom: 1px solid #E6E6E6;
 }
 .position a {
-  color: #535b60;
+  color: white;
   font-size: 1.1em;
 }
 .zm{
@@ -311,4 +313,36 @@ p {
 .part:hover {
   background: #afb3af;
   color: #000;
+}
+.ui-form {
+  padding: 30px;
+  margin: auto 30px;
+  background: white;
+  opacity: 0.8;
+  transition: 2s ease;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.ui-form:hover{
+  opacity: 1;
+  transition: 0.5s;
+}
+.ui-form h3 {
+  position: relative;
+  margin: 0 0 60px;
+  text-align: center;
+  color: #4a90e2;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.page{
+  color: #ffffff;
+}
+
+.omg {
+height: 100%;
+width: 100%;
+text-align: center;
+padding-top: 10px;
 }

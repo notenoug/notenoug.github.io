@@ -86,12 +86,11 @@
 </article>
 
         </div>
-        <div class="col-sm-3">
-        <div class="meteoprog-informer"  data-params='{"id": "5e9d6720984852e9688ec17d", "city_ids": "2903", "domain": "https://meteoprog.ua/ru/", "lang": "ru"}'>            <a title="Погода в городе Нежин" target="_blank" href="https://www.meteoprog.ua/ru/weather/Nizhin">
-            <img style="margin: 0 auto; display: block" src="https://www.meteoprog.ua/images/preloader.gif" alt="Loading...">
-          </a>
-          <a target="_blank" class="constructor__met2wlink" href="https://www.meteoprog.ua/ru/review/Nizhin/">Погода на 2 недели</a>
-          <a class="constructor__metlink" target="_blank" href="https://www.meteoprog.ua/ru/">          <img style="display: block; margin: 0 auto;" alt="Meteoprog" src="https://www.meteoprog.ua/images/meteoprog-inf.png">         </a>          </div>
+                <div class="col-sm-3">
+        <div id="MeteoInformerWrapOuther">
+<div id="MeteoInformerWrap">
+</div>
+      </div>    
                         <br>
                         <br>
                         <br>
@@ -147,10 +146,39 @@
                 </tr>
               </table> 
                      </div>
+                    </div>
+      <br>
+      <div class="container zag"> 
+      </div>
       </div>
     </div>
+    <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <form class="form ui-form" action="https://formspree.io/balaba646@gmail.com" method="POST">
+                <h3>Зв'язок</h3>
+  <div class="form-group">
+    <label for="exampleInputName2">Повідомлення</label>
+    <input  class="form-control" id="exampleInputEmail2"  name="message" placeholder="Введіть повідомлення">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">Пошта</label>
+    <input type="email" class="form-control" id="exampleInputName2"name="_replyto" placeholder="Введіть пошту">
+  </div>
+  <button type="submit" class="btn btn-primary">Надіслати</button>
+</form>
+            </div>
+            <div class="col-sm-6">
+              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Twma7QQmS135wdpBm7jKiVT-cx98N9M2" width="100%" height="380"></iframe>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
 
- <footer class="footer">
+   <footer class="footer">
         <div class="page-container">
           <div class="footer-inner">
             <address class="footer-contacts">
@@ -172,17 +200,13 @@
             <p class="footer-text">Відділ інформаційно-аналітичної роботи та комунікацій з громадськістю виконавчого комітету Ніжинської міської ради</p>
           </div>  
         </div>
-        
       </footer>
-  <script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+ <script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://www.meteoprog.ua/js/winformer.min.js"></script>
-<script type="text/javascript"> var css_file=document.createElement("link");
- css_file.setAttribute("rel","stylesheet");
-  css_file.setAttribute("type","text/css");
-   css_file.setAttribute("href","//s.bookcdn.com//css/cl/bw-cl-120x45.css");
-    document.getElementsByTagName("head")[0].appendChild(css_file);
-     </script>
+<script type="text/javascript" src="https://meteo.ua/var/informers.js"></script>
+<script type="text/javascript">
+makeMeteoInformer("https://meteo.ua/informer/get.php?cities=20&w=236&lang=ua&rnd=1&or=vert&clr=22&dt=today&style=modern",236,239);
+</script>
      <script type="text/javascript">
   function setWidgetData_72892212(data){
    if(typeof(data) != 'undefined' && data.results.length > 0)
