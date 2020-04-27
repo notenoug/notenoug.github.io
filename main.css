@@ -293,10 +293,13 @@ background: #fff;
   background: #575555;
   box-shadow: 0 0 4px #9c9c9c;
 }
-p {
+article > p {
   line-height: 1.3;
   margin-top: 5px;
   color: #c6ccc6;
+}
+article > img {
+  width: 100%;
 }
  .part {
   text-decoration: none;
